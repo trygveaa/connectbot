@@ -593,7 +593,6 @@ public class ConsoleActivity extends AppCompatActivity implements BridgeDisconne
 				if (v == null) return;
 				final TerminalView terminal = (TerminalView) v;
 
-				//final TerminalView terminal = (TerminalView)flip;
 				Thread promptThread = new Thread(new Runnable() {
 					public void run() {
 						String inj = getCurrentPromptHelper().requestStringPrompt(null, "");
