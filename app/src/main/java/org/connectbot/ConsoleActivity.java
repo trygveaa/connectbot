@@ -589,9 +589,9 @@ public class ConsoleActivity extends AppCompatActivity implements BridgeDisconne
 		mInputButton = (Button) findViewById(R.id.button_input);
 		mInputButton.setOnClickListener(new OnClickListener() {
 			public void onClick(View view) {
-				View v = adapter.getCurrentTerminalView();
-				if (v == null) return;
-				final TerminalView terminal = (TerminalView) v;
+				final TerminalView terminal = adapter.getCurrentTerminalView();
+				if (terminal == null)
+					return;
 
 				Thread promptThread = new Thread(new Runnable() {
 					public void run() {
