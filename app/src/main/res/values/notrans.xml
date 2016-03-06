@@ -24,13 +24,4 @@
 
 	<!-- "Input field" button in virtual keyboard. -->
 	<string name="button_key_input">___</string>
-
-	<!-- "Up" button in virtual keyboard. -->
-	<string name="button_key_up">\u25B2</string>
-	<!-- "Down" button in virtual keyboard. -->
-	<string name="button_key_down">\u25BC</string>
-	<!-- "Left" button in virtual keyboard. -->
-	<string name="button_key_left">\u25C0</string>
-	<!-- "Right" button in virtual keyboard. -->
-	<string name="button_key_right">\u25B6</string>
 </resources>
